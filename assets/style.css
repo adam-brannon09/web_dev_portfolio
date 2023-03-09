@@ -85,22 +85,19 @@ p {
     padding-bottom: 300px;
 }
 
-
-/* Placeholer until images are added */
 #work_article {
 	height: 500px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 
-
-
-
-#contact_me {
+footer {
 	padding: 100px 0;
 	background-color: #205295;
+	/* display: flex; */
+	/* align-items: center; */
+    /* justify-content:space-between; */
     
 }
 
@@ -108,23 +105,26 @@ p {
     color: #cbe4de;
 }
 
-
-#contact_info {
+#contact_me_section{
 	display: flex;
 	align-items: center;
-    justify-content:space-between;
+}
+
+#contact_info {
+	/* display: flex;
+	align-items: center;
+    justify-content:space-between; */
 	border-left: solid 2px #cbe4de ;
+	
 }
 
 .contact_item {
 	color: #cbe4de;
 	padding-left: 15px;
+	
 }
 
 a:hover {
 	color: white;
 }
 
-#horiseon:hover{
-    transition: .5s ease;
-}
