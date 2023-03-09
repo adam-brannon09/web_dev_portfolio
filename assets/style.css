@@ -34,6 +34,10 @@ a {
 	text-decoration: none;
 }
 
+img{
+	width: 1025px;
+}
+
 div {
 	background-image: url(./background.jpeg);
 	display: flex;
